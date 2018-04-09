@@ -1,0 +1,10 @@
+site_name: Bootstrap/386 - MkDocs Theme
+theme:
+    name: bootstrap386
+
+pages:
+    - Home: index.md
+
+plugins: []
+
+repo_url: https://github.com/lramage94/mkdocs-bootstrap386
