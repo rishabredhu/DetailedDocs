@@ -5,12 +5,12 @@
 Install with `pip`:
 
 ``` sh
-pip install mkdocs-bootstra-386
+pip install mkdocs-bootstrap386
 ```
 
 Append to `mkdocs.yml`:
 
 ``` yaml
 theme:
-  name: 'bootstra-386'
+  name: 'bootstrap386'
 ```
