@@ -8,7 +8,7 @@ setup(
     version=VERSION,
     url='https://github.com/lramage94/mkdocs-bootstrap386',
     license='BSD',
-    description='Minimal theme for MkDocs',
+    description='A vintage 1980s DOS inspired Twitter Bootstrap theme for MkDocs',
     author='Lucas Ramage',
     author_email='ramage.lucas@openmailbox.org',
     packages=find_packages(),
