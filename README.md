@@ -1,6 +1,5 @@
 # MkDocs Theme - BOOTSTRAP/386 
 
-[![Build Status](https://travis-ci.org/lramage94/mkdocs-bootstrap386.svg?branch=master)](https://travis-ci.org/lramage94/mkdocs-bootstrap386)
 [![BSD License][bsdlicense-button]][bsdlicense]
 [![PyPI][pypi-image]][pypi-link]
 
