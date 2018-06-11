@@ -6,7 +6,7 @@ VERSION = '0.0.1'
 setup(
     name="mkdocs-bootstrap386",
     version=VERSION,
-    url='https://github.com/lramage94/mkdocs-bootstrap386',
+    url='https://gitlab.com/lramage94/mkdocs-bootstrap386',
     license='BSD',
     description='A vintage 1980s DOS inspired Twitter Bootstrap theme for MkDocs',
     author='Lucas Ramage',
