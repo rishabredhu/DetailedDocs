@@ -8,7 +8,7 @@
         {% if config.site_description %}<meta name="description" content="{{ config.site_description }}">{% endif %}
         {% if config.site_author %}<meta name="author" content="{{ config.site_author }}">{% endif %}
         {% if page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}">{% endif %}
-        <link rel="shortcut icon" href="{{ base_url }}/img/favicon.ico">
+        <link rel="shortcut icon" href="{{ 'img/favicon.ico' | url }}">
         {%- endblock %}
 
         {%- block htmltitle %}
@@ -16,11 +16,11 @@
         {%- endblock %}
 
         {%- block styles %}
-        <link href="{{ base_url }}/css/bootstrap.min.css" rel="stylesheet">
-        <link href="{{ base_url }}/css/font-awesome.min.css" rel="stylesheet">
-        <link href="{{ base_url }}/css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="{{ 'css/bootstrap.min.css' | url }}" rel="stylesheet">
+        <link href="{{ 'css/font-awesome.min.css' | url }}" rel="stylesheet">
+        <link href="{{ 'css/bootstrap-theme.min.css' | url }}" rel="stylesheet">
         {%- for path in extra_css %}
-        <link href="{{ path }}" rel="stylesheet">
+        <link href="{{ path | url }}" rel="stylesheet">
         {%- endfor %}
         {%- endblock %}
 
@@ -31,8 +31,8 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="{{ base_url }}/js/jquery-1.10.2.min.js"></script>
-        <script src="{{ base_url }}/js/bootstrap.min.js"></script>
+        <script src="{{ 'js/jquery-1.10.2.min.js' | url }}"></script>
+        <script src="{{ 'js/bootstrap.min.js' | url }}"></script>
         {%- endblock %}
 
         {%- block analytics %}
@@ -49,7 +49,7 @@
         {% endif %}
         {%- endblock %}
 
-        {%- block extrahead %} {% endblock %}
+        {%- block extrahead %}{% endblock %}
     </head>
 
     <body>
@@ -71,13 +71,13 @@
         {% if config.copyright %}
         <center>{{ config.copyright }}</center>
         {% endif %}
-        <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> and <a href="http://kristopolous.github.io/BOOTSTRA.386/">BOOTSTRA.386</a>.</center>
+        <center>Documentation built with <a href="http://www.mkdocs.org">MkDocs</a> and <a href="http://kristopolous.github.io/BOOTSTRA.386">BOOTSTRA.386</a>.</center>
         {%- endblock %}
     </footer>
 
         {%- block scripts %}
         {%- for path in extra_javascript %}
-        <script src="{{ path }}"></script>
+        <script src="{{ path | url }}"></script>
         {%- endfor %}
         {%- endblock %}
     </body>

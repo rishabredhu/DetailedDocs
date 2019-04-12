@@ -1,9 +1,8 @@
-
 {% extends "base.html" %}
 
 {% block extrahead %}
-  <script>var base_url = '{{ base_url }}';</script>
-  <script data-main="{{ base_url }}/mkdocs/js/search.js" src="{{ base_url }}/mkdocs/js/require.js"></script>
+  <script>var base_url = '{{ path | url }}';</script>
+  <script data-main="{{ 'mkdocs/js/search.js' | url }}" src="{{ 'mkdocs/js/require.js' | url }}"></script>
 {% endblock %}
 
 {% block content %}
