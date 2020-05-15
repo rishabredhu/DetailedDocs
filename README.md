@@ -12,3 +12,18 @@
 [pypi-ref]: https://pypi.python.org/pypi/mkdocs-bootstrap386
 
 <a href="https://lramage.gitlab.io/mkdocs-bootstrap386"><img src="img/screenshot.png" alt="A vintage 1980s DOS inspired Twitter Bootstrap theme for MkDocs"></a>
+
+## Installation
+
+First install the theme via pip:
+
+```sh
+pip install mkdocs-bootstrap386
+```
+
+Then update your `mkdocs.yml` file:
+
+```yml
+theme:
+    name: bootstrap386
+```
