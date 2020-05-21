@@ -2,6 +2,7 @@
 *.txt
 dist/
 build/
+public/
 *.egg-info/
 site/
 tmp/
