@@ -4,7 +4,7 @@ site_url: https://lramage.gitlab.io/mkdocs-bootstrap386
 theme:
     name: bootstrap386
 
-pages:
+nav:
     - Home: index.md
 
 plugins: []
