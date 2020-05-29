@@ -23,7 +23,7 @@ theme:
 
 ## Acknowledgement
 
-Based on [BOOTSTRA.386](https://kristopolous.github.io/BOOTSTRA.386) by [Chris Mckenzie](https://github.com/kristopolous/BOOTSTRA.386).
+Based on [BOOTSTRA.386](https://kristopolous.github.io/BOOTSTRA.386) by [Chris Mckenzie](https://github.com/kristopolous).
 
 ## License
 
