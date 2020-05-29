@@ -18,7 +18,7 @@ Then update your `mkdocs.yml` file:
 
 ```yml
 theme:
-    name: bootstrap386
+  name: bootstrap386
 ```
 
 ## Acknowledgement

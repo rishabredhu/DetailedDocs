@@ -12,6 +12,6 @@ Append to `mkdocs.yml`:
 
 ``` yaml
 theme:
-  name: 'bootstrap386'
+  name: bootstrap386
 ```
 
