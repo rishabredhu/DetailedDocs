@@ -1,4 +1,4 @@
-# MkDocs Theme - BOOTSTRA.386
+# Mkdocs - BOOTSTRA.386 Theme
 
 [![BSD-2-Clause][license-badge]][license-ref]
 [![GitLab CI/CD][gitlab-badge]][gitlab-pipelines]
