@@ -14,3 +14,4 @@ Append to `mkdocs.yml`:
 theme:
   name: 'bootstrap386'
 ```
+
