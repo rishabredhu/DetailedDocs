@@ -1,3 +1,5 @@
+# Install setuptools: pip install setuptools
+
 from setuptools import setup, find_packages
 
 VERSION = '0.0.2'
